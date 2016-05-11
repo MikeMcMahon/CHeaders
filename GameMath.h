@@ -21,7 +21,6 @@ int GM_PointCollides(int x, int y, int x2, int y2, int w, int h) {
     if (x >= x2 && x <= x2 + w)
         if (y >= y2 && y <= y2 + h)
             return GM_COLLIDES;
-
     return GM_NO_COLLIDES;
 }
 #endif // GAME_MATH_H
