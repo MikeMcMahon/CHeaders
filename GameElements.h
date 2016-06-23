@@ -28,6 +28,7 @@ struct Sprite {
     int s_y;  // y column location in sprite sheet
     int x;      // real world location for rendering
     int y;      // real world location for rendering
+    int r;      // degree of rotation 0-360
     int state;
 };
 
